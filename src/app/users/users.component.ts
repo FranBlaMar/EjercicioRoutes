@@ -6,6 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./users.component.css']
 })
 export class UsersComponent {
+  
   users = [
     {
       id: 1,
@@ -20,4 +21,5 @@ export class UsersComponent {
       name: 'Jamie'
     }
   ];
+  
 }
